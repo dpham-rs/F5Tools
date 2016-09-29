@@ -16,7 +16,6 @@ total 5
 [root@lbal1:Active:In Sync] cron # crontab -e
 !-- Add this line at the bottom:
 */15 * * * * /root/cron/fixLocalUsers.pl
-[/code]
 ```
 ### Running it manually
 ```
